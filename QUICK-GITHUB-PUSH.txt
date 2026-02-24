@@ -1,0 +1,106 @@
+===========================================
+QUICK GITHUB PUSH COMMANDS
+===========================================
+
+STEP 1: Configure Git (First Time Only)
+-----------------------------------------
+git config --global user.name "Tushar Dodamani"
+git config --global user.email "crazytush99@gmail.com"
+
+
+STEP 2: Initialize and Commit
+-----------------------------------------
+cd tushar-portfolio
+git init
+git add .
+git commit -m "Initial commit - Portfolio website"
+
+
+STEP 3: Create GitHub Repository
+-----------------------------------------
+1. Go to: https://github.com/
+2. Click "+" → "New repository"
+3. Name: portfolio
+4. Public
+5. Don't check "Initialize with README"
+6. Click "Create repository"
+
+
+STEP 4: Push to GitHub
+-----------------------------------------
+git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
+git branch -M main
+git push -u origin main
+
+(Replace YOUR_USERNAME with your GitHub username)
+
+
+STEP 5: Get Personal Access Token
+-----------------------------------------
+1. Go to: https://github.com/settings/tokens
+2. Generate new token (classic)
+3. Select: repo, workflow
+4. Copy token
+5. Use as password when Git asks
+
+
+===========================================
+DEPLOY TO GITHUB PAGES (FREE HOSTING)
+===========================================
+
+STEP 1: Install gh-pages
+-----------------------------------------
+npm install --save-dev gh-pages
+
+
+STEP 2: Update package.json
+-----------------------------------------
+Add this line after "name":
+  "homepage": "https://YOUR_USERNAME.github.io/portfolio",
+
+Add these to "scripts":
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+
+
+STEP 3: Deploy
+-----------------------------------------
+npm run deploy
+
+
+STEP 4: Enable GitHub Pages
+-----------------------------------------
+1. Go to repository → Settings → Pages
+2. Source: gh-pages branch
+3. Save
+4. Visit: https://YOUR_USERNAME.github.io/portfolio
+
+
+===========================================
+FUTURE UPDATES
+===========================================
+
+After making changes:
+-----------------------------------------
+git add .
+git commit -m "Updated portfolio"
+git push
+npm run deploy
+
+
+===========================================
+YOUR URLS
+===========================================
+
+GitHub Repo:
+https://github.com/YOUR_USERNAME/portfolio
+
+Live Site:
+https://YOUR_USERNAME.github.io/portfolio
+
+
+===========================================
+NEED HELP?
+===========================================
+
+See GITHUB-DEPLOY.md for detailed guide!

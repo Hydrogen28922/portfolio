@@ -25,9 +25,9 @@ const Contact = () => {
 
     // EmailJS configuration
     // Replace these with your actual EmailJS credentials
-    const serviceID = 'YOUR_SERVICE_ID';
-    const templateID = 'YOUR_TEMPLATE_ID';
-    const publicKey = 'YOUR_PUBLIC_KEY';
+    const serviceID = 'service_6dpkg7n';
+    const templateID = 'template_baqvkge';
+    const publicKey = 'b4NlXz4ClXlS_-Aq4';
 
     emailjs.send(serviceID, templateID, {
       from_name: formData.name,
