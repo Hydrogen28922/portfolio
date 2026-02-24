@@ -4,10 +4,10 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: 'fa-github', url: 'https://github.com/tushar', label: 'GitHub' },
-    { icon: 'fa-linkedin', url: 'https://linkedin.com/in/tushar', label: 'LinkedIn' },
-    { icon: 'fa-twitter', url: 'https://twitter.com/tushar', label: 'Twitter' },
-    { icon: 'fa-envelope', url: 'mailto:tushar@example.com', label: 'Email' }
+    { icon: 'fa-github', url: '#', label: 'GitHub' },
+    { icon: 'fa-linkedin', url: '#', label: 'LinkedIn' },
+    { icon: 'fa-twitter', url: '#', label: 'Twitter' },
+    { icon: 'fa-envelope', url: 'mailto:crazytush99@gmail.com', label: 'Email' }
   ];
 
   const quickLinks = [
@@ -59,15 +59,15 @@ const Footer = () => {
             <ul className="footer-contact">
               <li>
                 <i className="fas fa-envelope"></i>
-                <a href="mailto:tushar@example.com">tushar@example.com</a>
+                <a href="mailto:crazytush99@gmail.com">crazytush99@gmail.com</a>
               </li>
               <li>
                 <i className="fas fa-phone"></i>
-                <span>+1 (555) 123-4567</span>
+                <span>+917249445752</span>
               </li>
               <li>
                 <i className="fas fa-map-marker-alt"></i>
-                <span>San Francisco, CA</span>
+                <span>India</span>
               </li>
             </ul>
           </div>

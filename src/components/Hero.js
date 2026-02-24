@@ -22,13 +22,13 @@ const Hero = () => {
               </a>
             </div>
             <div className="social-links">
-              <a href="https://github.com/tushar" target="_blank" rel="noopener noreferrer">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com/in/tushar" target="_blank" rel="noopener noreferrer">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://twitter.com/tushar" target="_blank" rel="noopener noreferrer">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-twitter"></i>
               </a>
             </div>
@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="hero-image">
           <div className="image-container">
             <div className="profile-pic">
-              <img src={`${process.env.PUBLIC_URL}/tushar-photo.jpg`} alt="Tushar Dodamani" />
+              <img src={process.env.PUBLIC_URL + '/tushar-photo.jpg'} alt="Tushar Dodamani" />
             </div>
             <div className="floating-tech">
               <div className="tech-icon tech-1">
