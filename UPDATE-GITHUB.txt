@@ -1,0 +1,28 @@
+========================================
+PUSH LATEST CODE TO GITHUB
+========================================
+
+Run these commands in order:
+========================================
+
+1. Check what changed:
+   git status
+
+2. Add all changes (including photo):
+   git add .
+
+3. Commit with message:
+   git commit -m "Fix photo display and update portfolio"
+
+4. Push to GitHub:
+   git push
+
+5. Deploy to GitHub Pages:
+   npm run deploy
+
+6. Wait 1-2 minutes, then visit:
+   https://hydrogen28922.github.io/portfolio/
+
+========================================
+DONE! Your photo will be visible! 🎉
+========================================

@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="hero-image">
           <div className="image-container">
             <div className="profile-pic">
-              <img src="/tushar-photo.jpg" alt="Tushar Dodamani" />
+              <img src={`${process.env.PUBLIC_URL}/tushar-photo.jpg`} alt="Tushar Dodamani" />
             </div>
             <div className="floating-tech">
               <div className="tech-icon tech-1">
