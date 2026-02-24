@@ -1,0 +1,33 @@
+📸 HOW TO ADD YOUR PHOTO
+========================
+
+STEP 1: Save Your Photo
+------------------------
+1. Take the photo you provided (the one with sunglasses and city background)
+2. Save it as: tushar-photo.jpg
+3. Place it in the folder: tushar-portfolio/public/
+
+STEP 2: That's It!
+------------------
+The photo is already configured in the code to load from /tushar-photo.jpg
+
+Your photo will appear in the Hero section with:
+- Glowing animated border
+- Floating animation
+- Rotating shine effect
+- Beautiful gradient glow
+
+ALTERNATIVE: If you want to use a different filename
+-----------------------------------------------------
+1. Save your photo in tushar-portfolio/public/ with any name
+2. Open: tushar-portfolio/src/components/Hero.js
+3. Find line 18: <img src="/tushar-photo.jpg" alt="Tushar Dodamani" />
+4. Change "tushar-photo.jpg" to your filename
+
+RECOMMENDED IMAGE SPECS:
+- Format: JPG or PNG
+- Size: 800x800px or larger (square)
+- Quality: High resolution
+- Background: Any (the circular crop will handle it)
+
+🎉 Your amazing portfolio will be complete!
